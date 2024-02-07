@@ -17,6 +17,7 @@ def main():
     target = target_reader(args.target_path)
     trainer = APPNPTrainer(args, graph, features, target)
     trainer.fit()
+    
 
 if __name__ == "__main__":
     main()
